@@ -1,3 +1,5 @@
 require_relative '../config/environment'
 
-puts "hello world"
+app = TheoryApp.new
+app.run
+# puts "hello world"
